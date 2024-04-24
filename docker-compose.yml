@@ -12,7 +12,6 @@ services:
       - /storage01/grafana/data:/var/lib/grafana
       - /storage01/grafana/datasources.yml:/etc/grafana/provisioning/datasources/datasources.yml
 
-
   prometheus:
     image: prom/prometheus:v2.51.2
     container_name: prometheus
